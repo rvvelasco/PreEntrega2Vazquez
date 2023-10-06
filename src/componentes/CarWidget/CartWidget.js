@@ -1,12 +1,11 @@
 import React from 'react'
 import cart from "./Assets/cart.svg"
-import "./style.css"
+import "./CartWidget.css"
 
 export default function CartWidget() {
   return (
-    <div>
-        <img src={cart} alt='cart-widget'/>
-        0
+    <div id='carrito'>
+        <img src={cart} alt='cart-widget'/><p className='indicador'>0</p>
     </div>
   )
 }
